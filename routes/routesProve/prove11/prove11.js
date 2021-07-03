@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-// Path to your JSON file, although it can be hardcoded in this file.
 const dummyData = {
     "avengers": [
         {
@@ -14,7 +13,7 @@ const dummyData = {
         },
         {
             "name": "Thor Odinson",
-            "heroName": "Thor xD"
+            "heroName": "Thor"
         },
         {
             "name": "Bruce Banner",
